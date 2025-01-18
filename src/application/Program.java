@@ -36,7 +36,7 @@ public class Program {
 			}
 			
 			for (Candidato candidato: candidatos.keySet()) {
-				System.out.printf("%s: %d%n", candidato.getNome(), candidatos.get(candidato));
+				System.out.printf("Candidato %s: %d%n", candidato.getNome(), candidatos.get(candidato));
 			}
 		} 
 		
